@@ -15,7 +15,7 @@ pinecone.init(
 MODEL = "text-embedding-ada-002"
 
 
-@app.route("/", methods=("GET", "POST"))
+@app.route("/")
 def index():
     index = pinecone.Index('openai')
     message = request.json.get("message")
