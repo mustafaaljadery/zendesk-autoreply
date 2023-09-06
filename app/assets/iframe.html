@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--   See Using Zendesk Garden:
+    https://developer.zendesk.com/apps/docs/developer-guide/setup#using-zendesk-garden
+    https://garden.zendesk.com/css-components/bedrock/
+    https://garden.zendesk.com/css-components/utilities/typography/
+   -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock@7.0.21,npm/@zendeskgarden/css-utilities@4.3.0">
+</head>
+<body>
+  <h2 class="u-semibold u-fs-xl">AI Response</h2>
+  <div class="u-mt" id="container">Loading the ticket response...</div>
+
+  <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+  <script>
+    // Initialise Apps framework client. See also:
+    // https://developer.zendesk.com/apps/docs/developer-guide/getting_started
+    var client = ZAFClient.init();
+    client.invoke('resize', { width: '100%', height: '200px' });
+
+    async function displayUserName() {
+      const response = await client.get("currentUser.name");
+      const name = response["currentUser.name"];
+      const span = document.getElementById("name");
+      span.innerText = name;
+    }
+    displayUserName();
+
+    async function updateSummary() {
+      let convo = JSON.parse(await getTicketConvo())
+      convo = convo.map((value) => {
+        return value.message.content
+      }).join("\n\n");
+
+      const answer = await getAnswer(convo)
+
+      container.innerText = answer.message;
+    }
+    updateSummary();
+
+    async function getTicketConvo() {
+      const ticketConvo = await client.get("ticket.conversation");
+      return JSON.stringify(ticketConvo["ticket.conversation"]);
+    }
+
+    async function getAnswer(prompt) {
+       const url = 'https://zendesk-autoreply-mustafaaljadery.vercel.app/'
+        const params = {
+           message: prompt,
+        };
+
+        const searchParams = new URLSearchParams(params);
+
+        const headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+
+        const fullUrl = `${url}?${searchParams.toString()}`;
+
+        try {
+            const response = await fetch(fullUrl, {
+                method: 'GET',
+                headers: headers
+            });
+
+            if (response.status === 200) {
+                const data = await response.json();
+                return data
+            } else {
+                throw new Error(`Failed to retrieve data. Status code: ${response.status}`);
+                return null
+            }
+        } catch (error) {
+            console.error(error);
+            return error
+        }
+    }
+
+  </script>
+</body>
+</html>
