@@ -2,7 +2,7 @@
 
 The Zendesk app allows you to auto respond to support tickets. I scraped the entire Beehiiv knowledge-base and created a chat app that will automatically respond to zendesk support tickets. 
 
-Here is a [demo]() of the app.
+Here is a [demo](https://www.loom.com/share/4daf3a4dfb214a419275ddf166a6ba57) of the app.
 
 ## Server
 
