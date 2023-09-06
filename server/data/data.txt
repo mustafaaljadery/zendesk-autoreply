@@ -1,0 +1,894 @@
+If you have signed up for a new account and need to import subscribers into beehiiv we do require you confirm your identity on your account. 
+
+This can be done two ways within the Import Limits section inside your beehiiv account. 
+
+A. Stripe Identity (5-min) 
+This will be the most convenient and fastest way to verify your identity. Here we have partnered with Stripe Identity to be able to verify your identity and allow you to start importing and sending right away. 
+
+B. Manual Verification (up to 72 hours) 
+If you prefer not to use Stripe Identity you can leverage our manual verification process by contacting support. This will take around 48-72 hours for our team to manually verify your identity. 
+
+To start the process to verify your Identity via Stripe follow the process outlined below: 
+
+Dashboard → Settings → Publication → Import Subscribers (tab) → Import Limits (section) → Click on “Start Stripe Identity Verification”
+
+Stripe will then guide you through a step by step process to verify your identity. 
+
+Did you notice that your final subscriber count in beehiiv is lower than the number in your original CSV? 
+
+Do not panic. 
+
+This is a relatively normal occurrence. beehiiv automatically removes the inactive and/or duplicate emails from your CSV import.
+
+This is why your CSV might have had 10,000 subscribers, but only 9,200 of them are in beehiiv (for example). 
+
+This process reduces your email bounce rate and increases your open rate, which further improves your domain reputation and deliverability (it’s best not to send to duplicate subscribers, or bounces). 
+
+By default all accounts no matter which plan will have an import limit of 2500 contacts until the account has been approved. This is put in place to protect against spam, and ensure a  high domain reputation for beehiiv customers as a whole. 
+
+We have implemented a variety of ways to validate your account and increase sending limits with Stripe Identity Verification and our manual account verification processes. 
+
+Again these steps are put in place to protect our core domain IPs and sending reputations which are some of the best in the email industry for our customers.
+
+If you are blocked or are having issues with import limits and or verification please don’t hesitate to contact support and we can help you solve this immediately. 
+
+Import limit is not high enough. In this case you can reach out to support and we can help you increase your import limit. 
+
+If your import shows “complete” but there are fewer subscribers in beehiiv than on your original CSV, do not panic. beehiiv automatically removes inactive emails and duplicates. 
+
+This is also the case if you import the same list twice. beehiiv will overwrite existing data. 
+
+You can import a new list with the same emails but additional custom fields without having to delete anything. The new fields will appear where they belong. 
+
+Please note that if you import subscribers with any of the reserve fields as their custom fields (such as state), those fields will not go through. 
+
+You can get around this by re-naming the CSV column to something like “import_state” to avoid this issue. 
+
+When a new subscriber signs up for your newsletter it is important that they confirm their email and mark it as important. Ensuring you leverage our smart nudge functionality + leveraging double optin are the first two steps here.  
+
+A new subscriber will first need to confirm their email address before they receive your welcome email. 
+
+One thing you can do is create a custom standalone page. This page can be used to welcome new subscribers and also set expectations on next steps. For example, confirming their email address and marketing your emails as important within their inboxes. This will set your welcome email and all future emails up for success. 
+
+Here is the process on how to set up a custom standalone page and have it be your default redirect option after someone opts in to your newsletter. 
+
+Let’s get your free subscribers imported into beehiiv! 
+To start you will go to Dashboard → Settings → Publication → Import Subscribers (tab) → Import Subscribers (section)
+
+Import limits are separate from subscriber limits (the latter of which is set based on your specific beehiiv plan), and we have import limits in place for two reasons: 
+To limit potential spam and malicious behavior on new accounts
+To ensure beehiiv users do not accidentally send emails with poor deliverability practice
+
+For example, uploading a list of 50,000 subscribers that has not been sent an email in over a year is a risk. 
+
+The odds of an email bouncing or being marked as spam is very high. The odds of many emails that have become inactive (such as people changing jobs and emails being deleted), or when users forget they signed up for tha newsletter in the first place. 
+
+You can raise your limit by simply contacting support. Our team will ask you to include a list to your existing newsletter archive, or send examples of your content if you do not have a past archive. 
+
+Naturally, they will also ask you to confirm the method in which your users on your list have consented to receive these emails from you. 
+
+We take potential spam very seriously, which is why we perform this light verification and ask a few basic questions at the outset of your migration to ensure best practices are followed. These are important to beehiiv as a platform and all of our users. 
+
+To change your import limit, you can complete the process here to raise your limit to 10,000. It will take about one to three minutes. 
+
+If you need more than 10,000, you can click "contact support" in the same section and we will provide you with a form to submit a request for another increase. 
+
+You can also contact support directly with the request if the process does not work for you. 
+
+Please note our representatives will ask you for a link to your existing newsletter content and a link to where they subscribed/consented to receive these emails from you. This helps us ensure quality sending on our platform and the highest level of deliverability possible. 
+
+For more information on why you have an import limit in the first place, please see this article. 
+
+We do a light verification to help prevent spam on the platform. Some people buy beehiiv plans with stolen credit cards, upload thousands of users who never consented to email, and then message them en-masse with scams. This is obviously devastating to our industry, so we use these processes to continue preventing that. 
+
+Because we want to protect our community and your account from anyone who is not you, and who may take advantage of the platform with spam sending, we have a simple and quick account verification process. This process will help you to build your email reputation by having more chances of landing in the primary inbox instead of spam. 
+
+The first step is login into your beehiiv account. Then, in the middle left corner, you will find "Verify your identity." Click on it, and a new window will open.
+
+Simply provide your Twitter, LinkedIn, and a short description of your newsletter. Make sure you produce real and active accounts. This helps us ensure you’re a real person. 
+
+This information is used for internal purposes ONLY and will not be associated with your newsletter or publicized in any way. Please provide accurate accounts so our team can properly vet and approve you for sending.
+
+In the meantime you can create a template for your email newsletter. Here are 5 ideas to inspire you.
+
+Remember we manually review every community member to ensure that users don't use beehiiv to spam. 
+
+This ensures that we maintain a very high level of trust with our sending IP and maximize deliverability for all our community. 
+
+If your account verification got denied, please email support@beehiiv.com, and we will review your case. 
+
+To import your content from Ghost:
+Go to Settings –> Publication –> Import Content –> choose Ghost
+Input your Ghost Content API key and API URL 
+This information can be found in Ghost by going to Settings –> Integrations and selecting or creating a custom integration
+Click “Import” to import your content
+Once you’ve imported content, you can view it under Write –> Posts
+
+Step 2 (Required if you have premium content): If you have premium content, you must upload your exported content from Substack.
+To export your content from Substack, go to Writer Dashboard > Settings > Export your data. Do not modify or unzip the file before uploading.
+Then upload the file and click "Import."
+
+Whether you have a public or private newsletter, you can now require new subscribers to request access to join your mailing list, instead of simply joining the list after entering their email. This is a huge unlock for anyone looking to build exclusive communities for their newsletters.
+
+Here’s how to set up subscriber requests:
+To require new subscribers to request to join your list, you can go to Settings → Publication → General tab and toggle on “Require Subscriber Approval.”
+
+Can I set up subscriber requests for both public and private newsletters?
+Yes, you can set this up for both private and public newsletters. 
+
+Can I create subscriber requests for just the premium tier of my publication?
+No; currently, toggling on subscriber requests will apply to all tiers of your publication. We are working to add more capabilities within this feature in the future.
+
+How do recommendations work if I require subscriber approval?
+You will still be able to be recommended by other publications, and other publications can still recommend you. There will be a note indicating that your publication requires approval when other publications recommend you.
+
+Private newsletters allow you to customize access to your newsletter & content to an exclusive list of subscribers. This is perfect for anyone looking to send internal newsletters to investors, employees, organizations, and more!
+
+In order to make your newsletter private, go to Settings → Publication → General tab and toggle on “Private Publication.”
+
+This removes all subscribe forms from your posts and website, so that nobody can publicly access/sign up to your newsletter.
+This will automatically put all of your web posts behind a content gate, so they’re only visible to authenticated subscribers. 
+If any non-subscribers land on your site or posts, they will see a default message indicating that this is a private newsletter that they cannot access
+If any subscribers land on your site or posts, they will be able to access it per usual
+ 
+Can I make my private newsletter public at any time and vice versa?
+Yes, when you make a publication private, all posts will be put behind an email gate that will make them accessible only to authenticated subscribers. When you switch the publication back to public, this gating will be removed.
+
+Can I make just the premium tier of my newsletter private?
+No, currently the private or public toggle applies to all tiers of the publication. You can have up to 3 publications within one account if you’d like to run separate public and private publications.
+
+Can I still recommend other newsletters if my newsletter is private? 
+No, once your newsletter is private, you will not be able to recommend any other newsletters.
+
+Can other newsletters still recommend me if my newsletter is private? 
+No, after you make your newsletter private, your publication will not be visible in our marketplace for any other publications to recommend you.
+
+First, if you only have one publication within your account or organization you will not see a delete option within the publication view. So you will actually need to delete your organization instead to remove everything if that is what you want to do. 
+
+First let us walk you through how to remove a publication. You do need to have more than one publication for this to work as by default each organization needs at least one active publication. 
+
+A "sender name" is the name in the "from" field in a reader's inbox. Many publications like to use the "name from publication" format, such as "Tyler from beehiiv".
+Please note the sender's name should not be an email address.
+The more personal you can make it the better. You will notice some companies and newsletters may also use their business name in some cases. 
+You can update this anytime here under Settings→ Publication→ General → “Sender Name” 
+
+Your “reply-to” address will be the email address used when a subscriber replies to one of your email newsletters. 
+
+Best practices here will set up a default email address for this like “newsletters@beehiiv.com” to manage sending, receiving and replying. 
+
+A logo and a thumbnail are the first steps to giving an identity and personality to your email newsletter. 
+
+Let’s first start with your logo. 
+
+Your logo will appear on your main subscribe page + the top left of your menu bar on the web version of your blog. 
+
+This is actually a legal requirement to stay compliant, so no. You must have your physical address in your newsletter emails. 
+As we do not want users sending out emails without an address (in case they forget to add one when onboarding), we will automatically add our address if it’s been left blank or forgotten. So please make sure to add your best email address for sending compliance and deliverability optimization. 
+
+You will need to follow the size guidelines for your logo and publication images. 
+This is going to be the case 99% of the time if you find your logo files uploaded look stretched. 
+
+Reminder: 
+Logo file: 800 x 800
+Thumbnail image file: 1200 x 630
+Please note that if you update the image, and it still appears stretched out, beehiiv (or any platform you post on), may need time to re-cache the image. You can also clear your cache manually within your browser directly. 
+For example, if you have a thumbnail that appears stretched out on Twitter, and then update the image so it’s the right size, Twitter may not have re-cached the new image yet. 
+
+This is why it can sometimes look stretched out, even though you’re sure the image is the right size. 
+
+Can I give someone a premium subscription for free? 
+Yes this can be done by setting up a Gift Premium Subscription within your account and then based on the subscriber you want to provide the premium subscription for free you can simply apply this gift. 
+
+Once you start a premium subscription you need to be aware of the expectations you have set with your premium subscribers. 
+
+Technically you can toggle on and off your premium subscriptions at any point. But when you’re selling monthly and or annual subscription options subscribers are paying for those specific time frames for your premium content. Very important to keep in mind. 
+
+What we recommend if you prefer to test and not commit to annual subscription subscribers is to toggle off just the annual subscription option within your pricing section here.
+
+This will allow you to only have premium monthly subscriptions providing you with much more flexibility if you do want to pause or cancel your premium subscriptions. 
+
+This will help prevent unhappy subscribers and or refund issues if you do realize you no longer want to fulfill your commitment of your premium subscriptions.
+
+To start charging for a premium newsletter subscription within beehiiv you will need to first connect a stripe account to process credit card payments. 
+
+You can find this integration within your beehiiv account here: Settings→ Publication→ Premium (tab) → Pricing (section)
+
+Before setting up this integration you will need to have an active Stripe account. Simply register here.
+
+Once you have an active account all you have to do it connect beehiiv with stripe by following the instructions below. 
+
+You will need to create a Premium Offer that includes a free trial. The free trial can be customized from 1, 2, 7, 14, 30, 60, or 90 days. This allows subscribers to “try before they buy” and can increase conversions. Please note users will have to enter credit card information to access the trial. 
+
+To automate the free trial process what we recommend is actually copying your trial link and hyperlinking it into your welcome email, posts, and any automations you have set up. This will allow new subscribers to access your premium trial offer more easily. 
+
+To make the free trial the default option for all subscribers for one or both of your monthly or annual subscriptions you will need to select that option while editing that specific premium offer here: 
+
+What happens to existing paid subscribers if I change the price of my subscription?
+Once you change the price of a premium subscription, the new price will only apply to new premium subscribers who join.
+Existing subscribers will be grandfathered at their current price unless they cancel and re-join.
+
+You will need a Stripe account to offer readers a premium subscription in beehiiv. We do not integrate with any other platforms at this time. If you don’t offer a premium subscription for your newsletter, you will not need to connect Stripe. 
+beehiiv will integrate with your Stripe account to process any payments that come from your premium newsletter subscriptions. 
+You can find this integration within your beehiiv account here: Settings→ Publication→ Premium (tab) → Pricing (section) 
+
+If you would like to create a premium only newsletter publication and not offer any free content you can do this by simply connecting Stripe, setting up your pricing, and then categorize all posts under premium only within your settings. 
+This will protect all your content and only allow premium paying subscribers to view. 
+
+TL;DR – After adding a new custom domain, beehiiv will automatically warm your domain via Smart Warming by gradually ramping up the volume of emails sent from your domain during the first 2-4 weeks after setup.*
+
+Your subscribers, as well as your own user experience, will not be impacted by this process. Once completed, all of your emails will be sent from your custom domain, and you will enjoy optimal deliverability.
+
+Custom Domain Setup for Sending
+
+To add your custom email domain, navigate to Settings -> Publication -> Domain -> Verified Domains for verification. Here's a video on that process.
+
+Once you’ve verified your custom domain, go to Settings -> Publication -> Domain -> Email Domains to configure your domain for your email sends. Your domain will show as Live, and the “Smart-warming” status will show In-progress for the next 2-4 weeks.
+
+Smart Warming is the process of gradually increasing sending volume on your custom domain, in order to build up the reputation of your new custom domain + IP combination.
+
+Once you’ve set up your custom domain for email, the smart warming process will automatically occur in the background. We start with a subset of your subscriber list that will receive emails from the new domain, while the remaining subscribers will receive emails from the beehiiv shared domain (which ranks high in terms of ESP reputation and deliverability).
+
+This will gradually ramp up based on the smart warming schedule until 100% of your email sends are coming from your custom domain.
+
+Smart warming only currently applies for users sending from the shared mail.beehiiv.com domain moving to a custom domain–it does not apply to users already sending from a custom domain who are wanting to send from a new custom domain.
+
+If you experience massive growth during this process, naturally, it may take longer for this process to complete since you have a larger sending volume and list.
+If you send very infrequently (less than once per week), it may take longer since more reputation is built based on data from the volume of sends.
+If we see low deliverability or other indicators at each phase, our process will automatically spend a longer amount of time in a certain phase until we have good indicators to increase sending volume. Ramping up volume too quickly can negatively impact deliverability.
+
+To reiterate, nothing will change in terms of your subscribers’ experience, as they will still be receiving timely emails and post sends. The only change is which domain the emails will be sent from; this will last for a few weeks as we gradually ramp up email sends on your new domain. Once the smart warming process is finished, all of your emails will be sent from the custom domain.
+
+Breakdown of beehiiv’s Smart Warming Process:
+We will set up a custom smart warming schedule based on your publication’s size, sending frequency, subscriber growth, and other factors.
+This schedule will constantly be updated and optimized every 24 hours as your publication grows in size 
+The schedule will be split into the following phases and will be custom to your newsletter’s size and volume. We will automatically move to the next phase once we reach certain deliverability criteria at each volume level:
+Low volume
+A small subset of emails will be sent from your custom domain. The remaining will be sent from the beehiiv shared domain.
+Medium volume
+A higher volume of emails will be sent from your custom domain. The remaining will continue to be sent from the beehiiv shared domain.
+High volume
+Most of your emails will be sent from your custom domain. The remaining will be sent from the beehiiv shared domain.
+Once the process is completed, you will receive an email confirmation that your smart warming is completed. You will also see a Complete status next to the Smart Warming section under Settings -> Publication -> Domain -> Email Domain.
+
+In the first example–starting a new newsletter–no reputation will have been built on your domain when you’re just starting out. (As explained in this post, maintaining a good sender reputation is important for your email’s deliverability.)
+
+This brand new combination of domain & IP address will need to be slowly warmed in order to prevent deliverability issues with your emails such as high bounces and errors. 
+
+That’s where Smart Warming comes in; after the smart warming process is completed, all of your emails will be sent from your warm custom domain. If your list is smaller than 200 subscribers, you won’t need to warm your new custom domain with Smart Warming, and your domain will immediately be activated.
+
+In the third example, if you’ve already been sending from the same custom domain that has previously been warmed on another platform, you will still need to warm your domain on beehiiv (in which case Smart Warming can easily take care of this for you). 
+
+For context, if you change platforms, your IP address also changes as a result, and any new combination of domain & IP address will impact the deliverability of your emails.
+
+Cloudflare will act a little differently than other typical domain providers and will act more as a third party service that sits on top of your already existing domain provider. You wouldn’t buy a domain via cloudflare but rather route it through cloudflare for more security. 
+
+You must use a subdomain like "www" or "blog" or another of your choice.
+
+Once done, we can forward root domain traffic to your subdomain with these instructions (this is so that domain.com -> www.domain.com without issues).
+
+If you are using Cloudflare, you can use this A record to do so with these instructions.
+
+If you are not using Cloudflare, you can set up a 301 or 302 redirect from within your DNS provider's settings.
+
+Let us walk you through 4 core steps to start setting up your very own custom domain on cloudflare. 
+Add your website domain to cloudflare
+Verify Domain Ownership
+Configure the domain to be used for web
+Setting up a custom domain for email sending
+ 
+By default, we will host your content on your-publication.beehiiv.com and send your emails from your-publication@mail.beehiiv.com.
+
+If you'd like to host your site on a custom domain or set up a custom domain for email sending, we have created a seamless process to make that possible.
+
+Note: Custom domain support is only available for users on one of our paid plans.
+
+Tech Note: In order to set up a custom domain for use with beehiiv, you must own the domain and you must have the ability to modify its DNS settings.
+
+Setting up a custom domain for your website means that readers will now visit www.yoursite.com instead of your-publication.beehiiv.com to subscribe to your newsletter and view your content.
+
+You can use whatever subdomain you like but it is common practice to use "www". For example, your site would likely live at www.yoursite.com.
+
+Let us walk you through 3 core steps to start setting up your very own custom domain on Hover.
+Verify Domain Ownership
+Configure the domain to be used for web
+Setting up a custom domain for email sending
+
+You must use a subdomain like "www" or "blog" or another of your choice.
+
+Once done, we can forward root domain traffic to your subdomain with these instructions (this is so that domain.com -> www.domain.com without issues).
+
+If you are using Cloudflare, you can use this A record to do so with these instructions.
+
+If you are not using Cloudflare, you can set up a 301 or 302 redirect from within your DNS provider's settings.
+
+We’ve also created a general overview video on custom domains here: 
+
+Setting up a custom domain for your website means that readers will now visit www.yoursite.com instead of your-publication.beehiiv.com to subscribe to your newsletter and view your content.
+
+You can use whatever subdomain you like but it is common practice to use "www". For example, your site would likely live at www.yoursite.com.
+
+Let us walk you through 3 core steps to start setting up your very own custom domain on Namecheap.. 
+Verify Domain Ownership
+Configure the domain to be used for web
+Setting up a custom domain for email sending
+
+For today’s example of setting up a custom domain with GoDaddy we will be setting up www.newsletterdaddy.co
+
+You must use a subdomain like "www" or "blog" or another of your choice.
+
+Once done, we can forward root domain traffic to your subdomain with these instructions (this is so that domain.com -> www.domain.com without issues).
+
+If you are using Cloudflare, you can use this A record to do so with these instructions.
+
+If you are not using Cloudflare, you can set up a 301 or 302 redirect from within your DNS provider's settings.
+
+To set up a custom sending domain in beehiiv, you will need to navigate to Settings > Publication > Domains. You can read more here on how to set up a custom domain. 
+
+If you will be using a custom sending domain, you must warm it up slowly. Sending your full email volume on the custom domain without warming it first will lead to severe deliverability issues (think high bounces and low open rates). 
+
+If this is a brand new custom domain you are setting up in beehiiv, you will need to warm it up especially slowly. The custom domain has no reputation, and it takes time to slowly build up a strong positive reputation. Please see sample warm up schedule below:
+
+If you have fully set up your domain and are still experiencing issues we advise you to contact support and we can try and solve the issues with you.
+
+However before writing into support please confirm you have followed all setup instructions, and have allowed proper time (up to 24 hours) for your DNS settings to propagate. This delay is the most common issue new custom domains have. 
+
+By default when signing up for beehiiv account you will automatically receive a custom subdomain like example.beehiiv.com where your online publication will live. 
+
+Many customers prefer to set up a custom domain. 
+
+A custom domain is simply your own domain like myowndomain.com which you own, control and build up a sending reputation from. 
+
+This helps you have a simple and brandable online presence to send new customers. A custom domain can be purchased from a company like https://domains.google.com/. 
+
+You may also have a personalized email address attached to your customer domain like name@myowndomain.com which is commonly setup with something like Google Workspace. 
+
+To learn more about custom domains read here. 
+
+In order to link a custom domain to your beehiiv newsletter, we must verify that you own the domain. Add the domain below and then follow the instructions to start the ownership verification process.
+
+Enter you domain
+
+We recommend that you use a subdomain if possible. Doing this is generally considered better practice for both web and email.
+
+Example:
+
+For a web domain use www.yourdomain.com instead of yourdomain.com.
+
+For email sending use mail.yourdomain.com instead of yourdomain.com.
+
+Note: If you are migrating to beehiiv and have been sending emails from a custom domain on your previous platform, we strongly recommend that you use the same domain here (even if it does not use a subdomain as mentioned above). This ensures that you will maintain the domain reputation that you have built and minimize the chance of deliverability issues. For example, if you were previously sending your newsletter from yourdomain.com, we recommend that you do that here as well.
+
+If you'd like to host your site on a custom domain or set up a custom domain for email sending, we have created a seamless process to make that possible.
+
+Note: Custom domain support is only available for users on a paid plan.
+
+Tech Note: In order to set up a custom domain for use with beehiiv, you must own the domain and you must have the ability to modify its DNS settings.
+
+Setting up a custom domain for your website means that readers will now visit www.yoursite.com instead of your-publication.beehiiv.com to subscribe to your newsletter and view your content.
+
+You can use whatever subdomain you like but it is common practice to use "www". For example, your site would likely live at www.yoursite.com.
+
+Let us walk you through 3 core steps to start setting up your very own custom domain. 
+Verify Domain Ownership
+Configure the domain to be used for web
+Setting up a custom domain for email sending
+
+When setting up your website, unless a different subdomain is needed, it is widely considered industry standard for your website to live on the www subdomain instead of your root domain. I.e. your website will usually be found on www.domain.com instead of just domain.com.
+
+The caveat with this setup comes when a reader tries to visit domain.com in their browser. In most situations, you would want them to be redirected to the www subdomain to ensure that they reach your site. Sometimes, modern web browsers can infer this and will direct them accordingly but that is not always the case. To best ensure readers reach your site, you can setup a redirect to go from the root domain to the www subdomain.
+
+If your DNS provider does not offer the ability to create a URL redirect, we have created a service that you can use. The service uses a 301 permanent redirect to send readers to the www subdomain of your site while preserving the full path of the URL. To use this you will need to create the DNS record below:
+
+Many DNS providers provide the ability to setup redirect records. Check your provider's documentation to see if this is a possibility. We have linked to some popular providers below.
+
+More about the Poll form data
+
+Find the definitions of the default fields in the Poll form below:
+email
+The email of the logged in user engaging with the Poll
+selection
+The text of the selection the logged in user chose
+extended_feedback
+The text entered by the logged in user in the Additional Feedback text box on the Poll form
+subscriber_id
+The individual id of the logged in user that engaged with the Poll
+created_at
+The date and time in UTC that the user engaged with the Poll
+post_poll_id
+The individual id of the selection that the logged in user chose
+
+You cannot currently use polls in segmented emails, however, you can include polls in regular posts.
+
+This article outlines how to create a new poll. These polls can be used once or on a continual basis in your newsletters.
+
+How often your segments update depends on the types of segments you’re using:
+Static — aggregates subscribers at the time of creation and does NOT update
+Dynamic — updates frequently as additional subscribers meet the requirements and are added (or existing subscribers no longer meet the requirements and are removed)
+Manual — based on a list of specific subscribers you want to manually import and does NOT update over time
+Note: Dynamic segments update daily, and you can also manually trigger a segment to refresh by clicking the “Update segment” button inside of a segment.
+
+Due to the rapid increase in users on the platform, there may be occasional periods where the processing time for segments is longer than usual, though this should resolve automatically.
+
+You can use custom segments (under Audience → Segmentation) to find all subscribers that opened/clicked a particular email. 
+
+For example, your segment criteria may look like this:
+
+Post → *name of your post* → was → Opened or 
+Email to a segment → *name of your segmented email* → was not → Clicked
+
+You can locate the most engaged subscribers in your audience using custom segments (under Audience → Segmentation).
+
+For example, you could create a segment of all readers with an open rate greater than or equal to 80% and send them a special loyalty reward.
+
+Static segments aggregate subscribers at the time of creation and do not update after the segment has been created.
+
+Dynamic segments are regenerated daily and update frequently. As additional subscribers match the criteria, they will be added to the segment, or if they no longer meet the requirements, they will be removed.
+
+Create a new trigger in Google Tag Manager
+Type: "Just Links"
+Trigger Type "Some link clicks"
+Add Filters for:
+Click text equals: "Continue"
+Page URL contains: [Your survey form URL]
+Name the trigger something descriptive like "Click Continue on Survey Form"
+
+Create a new tag in Google Tag Manager
+Type Custom HTML
+In the field paste the following code. Replace "[redirect URL]" with the URL of the page to which you want to redirect users
+<script>
+window.location.href="[redirect URL]"
+</script>
+Under Trigger select the trigger you created in Step 3.
+Give this tag a name like "Survey Form Redirect" and click save
+
+Publish your changes and test the setup by submitting tests in your form and clicking the continue button.
+
+Subscribe surveys
+Unsubscribe surveys
+Statistical information for advertising purposes
+Demographics
+Income
+Occupation
+
+Address and mailing information if you do giveaways or ship products. 
+General surveys relative to your audience and newsletter topics: 
+‘How often have you used AI this week?’
+‘What is your favorite Dad Joke?’
+‘How did you hear about us?’
+‘Is a hot dog a sandwich?’
+
+Survey answers are tied to subscribers' custom fields. If a subscriber isn’t recognized (i.e. they aren’t logged into beehiiv), the form can't update their fields. 
+
+Using forms for this purpose helps enrich subscriber data which is why they only work for subscribers who are logged in.
+
+You can bulk update custom fields by using a CSV file. To do so, import your CSV under Settings → Publication → Import Subscribers.
+
+To update custom field data for your existing subscribers using data from your new CSV file, check the box labeled “Overwrite existing custom field data on import” during import.
+
+Custom fields can be added to your subscribers’ profiles by first creating a field in “Custom Fields" (under Audience → Custom Fields). Then, add the related data to the custom fields on a subscriber’s profile page.
+
+Once double opt-in is in use, subscribers who are marked as pending cannot be manually forced into an active state. This can be seen here in your subscriber page. 
+
+The purpose of double opt-in is to act as a filter preventing poor fit subscribers, or fake subscribers, from receiving easy access to your publication. 
+
+It is often the case where these poorly engaged subscribers hurt open rates and deliverability. Remember to strive for quality > quantity. Turning on double-opt-in limits the possibility of poor fit subscribers hurting these key metrics. Plus allows you to build a much higher quality email list. 
+
+It is normal to have users in the pending status forever (some subscribers may never confirm their email). 
+
+If you are interested in moving subscribers from pending to active manually, it is worth considering the removal of double opt-in in the first place. 
+
+If you need a subscriber’s email changed while keeping their profile history, please contact support by submitting a ticket and we can help you manually fix this. 
+
+The pending status is assigned to subscribers who have not yet confirmed their subscription to your newsletter. 
+
+For this reason, subscribers enter the pending status if your publication has “double opt-in” turned on. They also enter this status if they sign up through a referral (to prevent users from gaming the system for your referral rewards). 
+
+Please note: users who are in the pending status will not receive any emails from your newsletter (no posts, no emails to a segment, and no welcome email/sequences) until they have confirmed their email address. 
+
+The purpose of double opt-in is to act as a filter preventing poor fit subscribers, or fake subscribers, from receiving easy access to your publication.
+
+This helps you build a high quality list of subscribers. 
+
+It is often the case where these poorly engaged subscribers hurt open rates and deliverability. Turning on double-opt-in limits the possibility of poor fit subscribers hurting these key metrics. 
+
+We offer an expansive suite of Editor AI tools to help take your newsletter to the next level and streamline the creation process!
+
+AI Writer
+Finish sentences based on your prompt and current writing
+Generate new text based on your prompt
+Adjust the tone of your writing 
+Adjust the length of your writing
+Translate existing text or write new text in any language of your choice
+
+AI Image
+Create new images based on your prompt description
+
+Now that you’ve customized your sections‘ border styles, colors, spacing, and more, you can easily Duplicate these sections and blocks so you don’t need to re-configure anything!
+
+Clicking Duplicate will add a block or section below the duplicated one.
+
+Selecting Copy will copy the entire section to your clipboard and allow you to paste it wherever you want in the post.
+
+To add columns, click the “+” icon to access our widget menu in the text editor, and you’ll see “Columns” under Basics. Selecting this will add a new two-column section to your post.
+
+You can customize the width of each column to be left offset, right offset, or centered, using the toolbar menu at the top of the section shown below:
+
+Your emails can look different to your subscribers for many reasons including: 
+
+Each email client renders emails slightly differently
+Users may have unique settings enabled on their devices (such as dark mode) that changes how your email designs look
+Certain fonts are accepted by some email clients but not others
+
+Limiting the number of elements in your template (such as images, colors, etc.) can help your emails have the highest chance for consistency across different devices and email clients.
+
+It’s not currently possible to import your email’s HTML/CSS directly from a Figma file. However, if you have the HTML for your email, you can try adding your template’s code directly to an HTML block in the text editor for sending.
+
+When you forward an email, you may notice that some of the formatting is adjusted or changed slightly. This can happen if you add more text and/or are forwarding a certain type of email, especially if it is design or media-rich, in which case forwarding can alter its overall design. 
+
+This may also happen when forwarding an email between different devices, email clients, and/or internet browsers. All of these may render your content differently and potentially cause your email’s formatting to look wonky.
+
+Your publication will have a default Privacy Policy at the bottom of your beehiiv website. This can’t be changed or customized at this time. 
+
+How do I preview my post to see how it appears for each subscriber type?
+You can search for a specific subscriber that you know falls under one of the subscriber types (Paid, Free, Referral milestone) and preview them to see how it would look for all subscribers in that category. Currently, we don’t provide default viewing by subscriber category type.
+
+Why are some options available or not available at different times?
+In order to reduce confusion, we have the following parameters set for different visibility combinations:
+If you choose to not show on the Web, it hides the Anonymous user option. 
+If you choose to not show to free/premium subscribers, (aka only show to Anonymous viewers on Web) then it hides the referral count option.
+
+To gate sections of your content, click the “+” menu in the text editor, then select “Visibility,” and toggle on or off whichever subscriber types that you would like to show this section to.
+
+With our content-gating feature, you can set permissions for sections of your posts to be visible only to certain subscriber types including:
+Free subscribers
+Paid subscribers
+Those that have reached a certain referral count
+Anonymous viewers on Web
+
+To set up a gravatar profile photo go here: http://en.gravatar.com/
+If you already have a Gravatar account simply login and update/add your email that you’re using with your beehiiv account and select the photo you want to use. 
+
+To start, test emails natively can only be sent to a team member of your newsletter - in other words, if they’re not one of your team members (not to be confused with one of your subscribers), you won’t be able to send them a test email. 
+
+This happens because some websites (and website builders), do not have data on their web-pages available for embeds such as these.
+
+This is why our embeds will still appear with the link you’ve entered, but without the corresponding information such as the title, description, or image.
+
+Click "segmentation" under the "audience" tab on your dashboard. You will see an "email a segment" button in the top right. 
+
+For clarity, an email blast to a segment by design is only meant for a small and/or dedicated group of subscribers. Since posting it to the website makes it public to everyone, the functionality of email blasts is centralized to email posts only.
+
+A/B testing allows you to test multiple subject line variations and optimize the performance of your emails. 
+
+At random, a portion of your subscribers will be sent one of the subject line variations at the scheduled time of publishing. At the conclusion of the test period, the remainder of your subscribers will receive the email with the subject line that performed the best.
+
+By default, we will always send the “winning” email variation with the highest open rate at the time that your A/B test is completed. In the event of a true tie on your A/B test, we will send your original email (not the other subject line variations that were tested against it).
+
+Tagging your content can help organize posts for readers and subscribers. 
+
+Yes; the Referral Program hub’s URL is determined by whichever domain you're using (either your own custom domain or the general beehiiv domain).
+
+To have it on your own domain, you would first need to set up your custom domain. Instructions for adding a custom domain can be found here.
+
+beehiiv’s Referral Program (under Grow → Referral Program) has a built-in leaderboard, so you can easily see subscribers who have generated the most referrals.
+
+To view information about your referral program:
+Click Grow from the left menu
+Click Referral Program
+
+Here, the Overview tab will show high-level stats for your referral program including:
+Number of Subscribers with referrals
+Number of Total readers referred
+Number of Referrals per subscriber
+Breakdown by Milestone
+Leaderboard sorted by Total referrals
+And a chart comparing subscribers with / without referrals
+
+In the Referral Program, Auto Fulfill is a method of sending emails to subscribers with the details of their referral rewards. 
+
+Enabling Auto Fulfill means the emails for those milestones will be sent automatically. This setting is particularly useful if the email being sent contains the reward itself.
+
+To enable Auto Fulfill for a milestone:
+Navigate to Referral Program (under Grow)
+Click the Configure tab
+Under Milestones, click Edit next to the reward you’re updating
+Scroll down to Advanced Settings, and toggle Auto Fulfill to ON
+
+This article outlines how to set up your referral program. Before you get started, it’ll take a few steps. You should only need to set this up once and when you’re done, your referral program will be all set. We’ll break down the larger steps here. 
+
+This article addresses how publications go about recommending each other’s publications. 
+
+Publishers make their own connections and recommend each other individually or mutually. Currently, this is a manual process as we do not have a way for publishers to talk to each other about recommending their publications within the app.
+
+In order to appear in “Recommendations” for other beehiiv publications to discover your newsletter, the following is required: 
+need to be verified
+need to have sent at least one post
+need logo + name + description of publication
+need content tag (in your company settings)
+You then will be able to discover and be discovered for recommendations. Other publications may organically find and recommend you but we also recommend networking with other newsletters that have similar subscriber size + non-competitive audiences. 
+
+Magic Links do not work on websites. Magic Links work by using a tag to pull the reader’s email address from their email client in order to sign them up; this tag has nowhere to pull the address from on the web.
+
+Make sure to use the "Simulate a subscriber" option when sending a test email. Magic Links use the {{email}} tag to pull in the email address from the email client, and a test email won't have this unless simulated.
+
+Create a unique link that is compatible with over a dozen email platforms. Any recipient who clicks on the hyperlink will automatically be subscribed to your newsletter without needing to enter in their email or go through the normal subscribe process.
+
+To share a Magic Link, click Grow → Magic Links, select the email platform of choice, and copy/paste the URL wherever you'd like. Under Advanced Options, you can also add UTM parameters to further track and attribute new subscriptions.
+
+This article covers our beehiiv affiliates’ payment schedule. 
+
+The payment schedule for our affiliate program is on the 15th of every month. We use Wise to make these payments.
+
+We currently make payment ~4 weeks after a sponsored send goes out. We can send payment through wire transfer, PayPal or Stripe, depending on your preference. We will soon be launching a beehiiv wallet which will hold any ad revenue you have earned. You can connect your wallet with your bank account to withdraw money as you choose to. 
+
+Yes you can! We don’t require exclusivity to be in the Ad Network. You can run ads through the beehiiv Ad Network and also continue to work with other ad partners or source ad deals yourself. 
+
+The beehiiv Ad Network works really well for 3 use cases:
+
+You are interested in monetizing through ads but don’t have an ad sales team or know who to reach out to for advertising opportunities. We will do all the heavy lifting for you - from finding you ad opportunities to providing you the necessary assets and even handling reporting back to the advertiser. We are your external ad sales team.
+
+You work with advertisers directly but have some open ad slots / remnant inventory. If you have specific dates for which you can’t find ad sponsors, we can plug our ads in on those dates. This prevents you from having to send out an email without an ad.
+
+An advertiser falls through at the last minute. Instead of scrambling for a last minute advertiser or having to run an email without an ad, we can plug in an ad for you. 
+
+CPM - Cost per Thousand Impressions - This payout model is based on the number of unique opens your sponsored send receives. For example, if the CPM for a campaign is $20 and your sponsored send receives 10K opens, the payout would be (10,000 / 1000) * $20, or $200. 
+
+CPC - Cost per Click - This payout model is based on the number of unique clicks the sponsored links in your send receive. For example, if the CPC for a campaign is $2 and your sponsored send receives 100 clicks, your payout would be 100*$2, or $200. 
+
+We check email performance 48-72 hours after the sponsored send goes out. 
+
+Some ads will perform better than others in your newsletters. Running ads can help you figure out what types of ads and brands resonate with your audience. And as you run more ads through the Ad Network, your earnings will really begin to compound over time!
+
+Anyone who is actively sending on beehiiv and has more than 1,000 subscribers is eligible for the Ad Network. To join the Ad Network, you can sign up here.
+
+If you don’t hear back within a few days, please reach out to our Support team directly about joining the Ad Network.  
+
+The total number of subscribers you may see in your analytics or on your subscriber panel represent total subscribers up to that point in time.
+
+As you have different advertisers and sponsors for your newsletter you may find potential discrepancies in your reporting. If you’re familiar and have experience with running ads on any platform you will know that not one platform has 100% accuracy when it comes to tracking. 
+
+Our analytics platform is best in class when it comes to tracking (since we own the data) and will be your best option for showing advertisers the most accurate data possible when it comes to your campaigns. 
+
+If an advertiser is showing less clicks than what you see in your beehiiv dashboard because they are using a trackable link or showing different data via their google analytics it may just be a variance in tracking. Hosting, page load speed, etc could all affect someone clicking and then bouncing from a website which could show a click on our side and a bounce on the sponsors side.
+We advise that you set expectations with each advertiser as early as possible about this potential variance and that you will leverage data from the beehiiv dashboard to have a central source of truth. 
+
+Otherwise it will be very difficult to track results if all advertisers and sponsors are utilizing their own and different tracking softwares as they will not all match no matter how good they are. 
+
+As you send emails you may want to actually see which subscribers actually click on certain links. To do this simply go to: 
+Dashboard → Write→ Posts → Select desired post → Click “view details” on desired link to see subscribers
+
+Engaged in this instance means the percentage (%) of subscribers in that cohort that have opened or clicked a newsletter within the set time period (the default is “past 30 days”).
+
+To view this within your dashboard simply go: Analyze→ Subscribers Report→ Subscriber Performance by Acquisition Source (section)→ Engaged (Column). 
+
+Once you approve a Email Boosts, there is no option to go back, disable, or pause the boosting publications, so make sure it’s a publication you trust.
+
+Your Max Spend will be pulled into pending for 72 hours after approval, which is the window in which boosting publications can get paid for any subscriber acquisitions from post sends (any subscribers acquired after the 72 hour window are free to you)
+
+After the 72 hour window, if your Max Spend is higher than the actual CPA X subscribers acquired, that difference will be returned to your account while the remaining stays in “Pending” for 2-21 days during subscriber verification. Your total spend will never exceed your max spend.
+
+Email Boosts are Boosts that can be sent in posts. This means much more rapid, high quality growth and monetization potential with boosts!
+
+While Web Boosts are displayed on the Recommendations page and drive acquisition via new sign-ups, Email Boosts can be added to posts directly and drive acquisition from the existing subscriber bases of boosting publications. 
+
+Standard (Recommended) is our default proprietary verification method which involves a series of in-depth checks on subscriber quality, engagement, and more to produce the highest quality subscribers. 
+Subscribers who pass the verification checks will be accepted on a rolling basis as soon as they meet the necessary requirements (this can take anywhere from 2-21 days)
+Subscribers who do not pass the verification checks within 21 days will be rejected (you will not pay out any funds for rejected subs)
+Funds will be released within maximum time window of 21 days for verified, accepted subscribers
+
+Relaxed is a quicker verification method that has fewer quality checks and relies on the high-quality nature of our boosting publications and subscriber pools.
+Subscribers who pass the verification checks will be accepted on a rolling basis as soon as they meet the necessary requirements (this can take anywhere from 2-14 days)
+Subscribers who do not pass the verification checks within 14 days will be rejected (you will not pay out any funds for rejected subs)
+Funds will be released within maximum time window of 14 days for verified, accepted subscribers
+
+Once you’ve been accepted to boost multiple publications, you may want to customize which ones are displayed on your Recommendations page (since only 3 are displayed at one time).
+
+beehiiv Boosts work with Stripe for both publishers and advertisers. Stripe is a mandatory requirement, and there are no alternatives at this time. 
+
+Boosts is a powerful tool that can help you grow and monetize your newsletter. 
+
+It is important to note before we dive in that there are two sides of boosts. You may find yourself participating in one or even both sides. 
+
+Using boosts to pay and promote your newsletter 
+Using boosts to promote other newsletters and earn revenue
+Benefits for those looking to pay and promote your newsletter with boosts:
+
+With Boosts, you can set your own price and only pay for active, engaged subscribers, optimizing your campaign for higher quality emails. All email subscribers are real and require double optin. 
+Boosts provides an average cost per subscriber of $1.63 and an average open rate of recommended subscribers of 42%. *This varies depending on who promotes your boost. 
+Using Boosts can result in an overall monthly growth of 137%, based on preliminary results from those with early access. Leverage boosts to add another acquisition channel to your arsenal. 
+Setting up Boosts takes only 5 minutes, making it a quick and easy way to start growing your newsletter. Probably the easiest ad platform that exists. 
+Benefits for those looking to promote other newsletters and earn revenue with boosts:
+
+The money earned from Boosts is deposited into your beehiiv wallet a few weeks later.
+Boosts requires no code, APIs, or custom integrations, making it simple to implement and manage.
+Boosts is fully integrated with beehiiv, offering a single platform with end-to-end 1st party data.
+Automated reporting is provided, including live real-time dashboards tracking progress and conversions.
+Boosts offers end-to-end spam protection, ensuring you only pay for active, quality subscribers.
+Boosts are an invaluable tool for both growing and monetizing your newsletter.
+
+To accurately verify engaged subscribers, we utilize an array of data points, including email engagement, geolocation information, and behavioral patterns. 
+
+This comprehensive approach ensures a high-quality subscriber base and prevents fraudulent or low-quality subscribers from abusing the platform.
+
+Due to the sensitive nature of these measures, we are unable to disclose specific methods employed.
+
+Nevertheless, this robust process effectively maintains the integrity of our platform and protects users from being charged for inauthentic subscribers.
+
+When you put in funds to your beehiiv wallet, every cent is used for acquisition. I.e. if you put in $1,000 and a $1 CPA, you will get 1,000 subs.
+
+We only take a 20% cut from those looking to monetize. This covers us facilitating the boost, operations, and all Stripe / International fees. This is baked into the price others see in the marketplace.
+
+What does this look like?
+
+In the example above, the users accepting your Boost will see an offer of $0.80 /subscriber. So they are always shown the actual price they will eventually withdraw and be paid. All available offers shown already include beehiiv’s 20% cut:
+
+Currently we do not support crypto currency as a funding source for your beehiiv wallet. This may change down the road but at the moment
+
+When a new boost has been created in our marketplace an email notification will be sent to your inbox where you can review the boost application and decide if you want to accept or decline the boost offer.
+
+All new leads that subscribe to your newsletter from a boost campaign will have a 14-day delay in showing up in your account. You will see them labeled as “Pending Subscribers” within your dashboard. Since you only pay for active subscribers that double opt-in to your newsletter we created this buffer to ensure all subscribers are valid and active to prevent ghost subscribers and or spam subscribers. This ensures you receive the highest quality subscribers. 
+
+The article outlines how to find your Publication ID. It’s important to note that this is a feature available on our paid plans, as access to the API is a paid only feature. This means it will not work on Free plans, and Free trials initially have access, but will no longer work once the trial is over.
+
+You can do this directly from your beehiiv account!
+
+In your Settings under Integrations you’ll see a page like the one below. Click on Setup Integration at the top underneath “Revue Integration.”
+
+If you’ve used integrations on Revue before, you can skip this step. Otherwise if this is your first time using Revue, you’ll likely need to have your account verified before receiving API access. To do this navigate to Subscribers page in the header and click Import via CSV or pasting addresses (it's important to import this way vs the manually add a subscriber way).
+
+Once you’ve received confirmation that your Revue account is verified, in your Revue account, click on your profile picture in the top right and go to Account Settings —> Integrations. 
+
+Once on your Integrations page, scroll down to the very bottom of the page to retrieve your API key. Keep this API key handy, as you’ll use it in the next step.
+
+Using our RSS feed feature + a free plugin, you're able to have all the content you publish on beehiiv automatically sync downstream to your Wordpress site.
+
+Using our customizable subscribe forms, you can easily embed these anywhere on your Wordpress site and all email submissions will be seamlessly passed along to beehiiv. We automatically handle all email validation and proper data attribution, so you can attribute exactly how these subscribers signed up and where they came from.
+
+Using our RSS feed feature + a Zapier account, you're able to have all the content you publish on beehiiv automatically sync downstream to your Webflow site.
+
+Using our customizable subscribe forms, you can easily embed these anywhere on your Webflow site and all email submissions will be seamlessly passed along to beehiiv. We automatically handle all email validation and proper data attribution, so you can attribute exactly how these subscribers signed up and where they came from.
+
+Using our customizable subscribe forms, you can easily embed these anywhere on your Shopify site and all email submissions will be seamlessly passed along to beehiiv. We automatically handle all email validation and proper data attribution, so you can attribute exactly how these subscribers signed up and where they came from.
+
+We handle this for you! Your account’s timezone is automatically set to the same timezone as your internet browser and cannot be changed in the app.
+
+As per our Terms of Use, all sales are final when purchasing a beehiiv subscription. Any exceptions made would be at the discretion of beehiiv, and if there is a unique instance where an individual purchase should be considered, that party can contact our support team for review of eligibility.
+
+In order to update your billing information, visit Settings and Billing.
+
+This article covers steps you should follow in case you do not receive your confirmation email. 
+
+First, make sure you check all possible places you may receive the confirmation email:
+The email of the primary account holder - make sure that your email matches that of the one associated with your account
+Spam folders
+Promotions folders
+
+If after checking any possible email addresses or folders, you can contact support so that we can further assist in confirming your account by verifying some brief information.
+
+Contact beehiiv Support by emailing support@beehiiv.com from the email address that was used to register your account, and we'll be able to assist.
+
+Yes, we provide the SSL certificate through the subdomain when it is added in your account’s settings. This ensures that the "www" traffic is secured. 
+
+beehiiv does not directly secure root domain traffic, however, you can try adding this A-record with your DNS provider (not all providers will accept it). After adding the A-record, root domain traffic would also be secured.
+
+This article addresses why images may not be loading for your readers in email posts. 
+
+There are a few reasons this can happen: 
+Your subscribers’ email client may block your images due to poor sending reputation or other factors 
+Subscribers have set personal privacy settings that may be blocking your images
+The email is too large and some images are cutoff - beehiiv shares a warning while drafting your Post:
+
+When a subscriber marks your email as spam, and in some cases depending on your subscribers’ ISP, a few things will happen:
+When a user marks an email as spam (for any ISP other than Gmail), we automatically prevent further emails from being sent to them.
+Gmail doesn't send spam complaints to providers, so there's no way to remove those users from receiving future emails.
+Their status remains as active in beehiiv, but we mark them as inactive on the backend.
+The spam threshold is 0.1% - anything above that is considered unhealthy and can impact deliverability.
+
+Using a custom domain for your newsletter is completely dependent on the needs of your publication. With that considered, publications that are more established or operate as a business will incorporate a custom domain for a few reasons: 
+The publication has control of their domain and sending reputation 
+The publication owns their sending reputation and it’s retained with their domain should they decide to move to another platform
+It keeps their professional branding consistent
+
+We recommend you use a dedicated IP if you have more than 100K subscribers, and we strongly recommend it if you have over 150K subscribers. 
+
+Most of our smaller senders (<100K subscribers) are on a shared IP pool. Sending from a shared pool means that other senders can impact your deliverability. To prevent this, it is best to be on your own IP. 
+
+If you want to move to a dedicated IP, please reach out to our Support team, and we can set this up for you. 
+
+If you’re seeing your open rates decrease, it’s likely related to one of the factors above. For example, you may be sending too often or not often enough, your audience isn’t properly segmented, or your subject lines aren’t capturing your readers’ attention.
+
+Changes in deliverability (due to your emails being marked as spam, improperly warming a custom domain, switching sender names/domains, etc.) may also negatively impact your open rates.
+
+Make sure that the reader is actively subscribed to your newsletter. It’s possible they accidentally unsubscribed (it happens!), so this is always a good first place to start.
+
+Ask the subscriber if your email landed in their spam or junk folder.
+
+If they’re using a corporate email, their organization may have strict spam filters in place and possibly blocked the mailing. You can reach out to our support team to confirm if this is the issue. If so, the subscriber’s firewall administrator will need to change the firewall rules for them to be able to receive your mail on a regular basis.
+
+Whether or not images load for your readers are usually dependent on their unique settings within their email client and/or device. It's common for people using Microsoft Outlook and/or a corporate email account to have images disabled for security purposes. 
+
+In almost all cases, the images are not broken within your newsletter or within beehiiv, rather it's an individual setting they'll need to address on their end.
+
+The "error" metric that is reported on your campaign metrics page is a combination of recipients whose email provider rejected the delivery of your post, and recipients who marked your email as spam. This is displayed solely for transparency. You didn't do anything wrong and no action is required on your end!
+
+This is more straightforward, but email recipients have the ability in their email client to mark incoming mail as spam. This negatively impacts your sender reputation and may cause future mail to be more likely classified as spam.
+
+It's best practice to include a prominent Unsubscribe link in your footer to allow readers the ability to unsubscribe seamlessly, without marking it as spam (we handle this automatically for you). Both unsubscribing and marking an email as spam will prevent the sender from reaching that recipient's inbox again; however, unsubscribes do not negatively impact your sender reputation.
+ 
+We have built several processes and integrations to proactively vet every single email address on the platform to make sure its legit before sending; however, people do occasionally find ways to submit invalid email addresses.
+
+When you see errors on your campaign metrics page—no action is required. The metric is solely for transparency. After a few failed delivery attempts, we will mark the subscription as inactive to prevent sending to fake emails—this way we can keep deliverability high for legit readers, and ensure your emails are finding your reader's inboxes safely.
+
+This also explains why you may see the error rate decline over time. As the same readers continue to error, we will proactively remove them to optimize your list hygiene.
+
+No action is needed. If you/your subscribers see this warning, it means there were too many signup attempts from the same device, browser, or IP address within a short period of time. You/they simply need to wait to try again. This is a spam prevention measure that helps us protect users on the platform from bad actors/bots/fake signups.
+
+This is a fairly common issue we have received that only occurs when additional 3rd-party scripts have been included in a user's GTM setup.
+
+Unfortunately, we don't have access to be able to resolve this issue ourselves, but here is how we would recommend proceeding:
+Remove your GTM Pixel ID in our settings and retry the action that was causing the issue to see if that resolves the problem. (this worked when we tried it on our end)
+If that resolves the problem, and it was an issue with your GTM setup, we recommend going through the tags and scripts in your GTM and trial/error removing different items to see which specific tag might be causing the issue.
+
+Sending a well-timed re-enagement campaign can help prevent many of your inactive subscribers from unsubscribing. Here are some helpful tips for crafting a successful re-engagement email:
+
+Use a captivating subject line (“We miss you.” “Long time no see!” “It's been a while.” etc.)
+Include a clear call to action for readers to click to show they still want to hear from you
+Provide an incentive to come back such as exclusive content or a discount
+Remind them of the benefits they get from continuing to engage with your emails
+
+Create a segment of subscribers who haven’t opened or clicked recently
+You can find examples of these segments here
+
+Send them an email to a segment with the following:
+A reminder that they are on your list
+Ask them to click a button to stay on the list 
+You can title the button with something like ‘Keep me Subscribed’ and can link to your home page or anywhere else you prefer
+
+2-3 days later, create a new segment of people who:
+Received / were sent that email blast
+Did NOT click
+
+This article addresses how to find which disengaged users to remove from your subscribers list.
+
+First, users should decide on what ‘disengaged’ means to them. Once they’ve made that determination, they can then create a segment to identify those subscribers. 
+
+Some common examples of disengaged users are: 
+Open rate is 0% (or less than 5% in some cases) - Overall opens
+Opened less than 1/8 of the most recent emails - Time-boxing on recent activity 
+Click Through Rate is less than 1%
+
+In a welcome email series, it's essential to strike a balance between providing valuable information and maintaining brevity. Your welcome series remember will be an automation within beehiiv allowing you to automate your most valuable information first in a structured way. 
+
+We recommend a series of 3 to 5 emails.
+
+This allows you to effectively welcome new subscribers, showcase your newsletter features and benefits, share success stories, and offer resources or support without overwhelming them. Remember, the goal is to engage, inform, and build trust with your audience.
+
+beehiiv offers you the ability to test your subject line with a small subset of your audience before sending your email to all your subscribers. This allows you to send the best subject line to your audience, to help boost your open rate. 
+
+We offer the ability to create fully customizable external subscribe forms and drop them anywhere on the internet.
+
+You can do this by clicking on Settings —> Publication —> Subscribe Forms and you can create as many subscribe forms as you'd like. You're able to customize the text, CTA, colors, fonts, etc.
+
+We'll then spit out the code for 3 different styled versions of these forms (full width, fixed width, and slim) which you can drop anywhere online to get new subscribers.
+
+Once you create a subscribe form, you'll have the option to edit the details of what happens after a user subscribes including 
+Adding a custom message that'll display under the form
+Adding a redirect URL where they'll be sent to after their email is submitted 
+
+You can find this by going to your Settings —> Publication —> Subscribe Forms —> Edit 
+
+And this functionality applies to both web and newsletter content, meaning you can send a single newsletter to your entire audience (both free and premium tiered subscribers) and we'll dynamically render the correct version to your readers pending their subscription tier. Ditto for web.
+
+beehiiv makes it simple to create and manage premium subscriptions, so you can monetize your content seamlessly. beehiiv does not take a fee for being an intermediary in the transaction between you and your readers. 
+
+The only fees taken are that of our payment processing partner, Stripe, which takes 2.9% and $0.30 per transaction. For example. if you charge $10 /mo for your content, you will receive $9.41 per month from that reader as long as their premium subscription remains active.
+
+Under Premium (Paid) Tier you can add a Premium Summary and a list of up to four Premium-only Features that will be promoted on your "Upgrade" page, displayed after users subscribe for free. 
+
+Once you've connected your Stripe account, you'll be able to set both a Monthly Subscription Price and an Annual Subscription Price. Note that $1 is the minimum you can charge.
+
+We have significantly enhanced our subscriber import process so you can now include any fields you'd like when importing.
+
+When going through the import process—you'll be able choose from existing custom fields you've already created, or create new ones on the fly. 
+
+Selecting Custom Fields will allow you to create individual fields you'd like your subscribers to inherit. You'll just need to create a name and choose a data type (string, number, boolean, date, etc.). 
